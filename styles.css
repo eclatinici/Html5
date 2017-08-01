@@ -1,0 +1,141 @@
+html {
+    background: lightgrey;
+}
+
+body{
+    max-width:900px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+    background: white;
+    border:solid;
+}
+
+body>header{
+    background-color: #444;
+    border:solid black 3px;
+    margin: 10px;
+}
+
+header{
+    border:solid black 1px;
+    margin: 10px;
+}
+
+header p{
+    margin:0px;
+    color:white;
+}
+
+nav{
+    margin:10px;
+    border: black 1px solid;
+    overflow:hidden;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    text-align: left;
+
+}
+
+body>header>nav ul>li{
+    display:inline-block;
+    list-style-type: none;
+
+    color:#aaa;
+
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+nav ul>li.active{
+    backgroung:green;
+}
+
+nav ul>li:hover:not(.active){
+    background:darkgreen;
+}
+
+
+
+
+
+section{
+    border:solid black 1px;
+    margin: 10px;
+}
+
+
+section#section1{
+    display: inline-block;
+    float:left;
+    width: 28%;
+
+    border:solid black 2px;
+    margin: 10px;
+
+    text-align: center;
+    background: blue;
+}
+
+
+section#section1>nav ul>li{
+    list-style-type: none;
+
+    color:#aaa;
+
+    padding-right: 4px;
+    padding-left: 4px;
+
+}
+
+section#section1>aside{
+    border:solid black 1px;
+    margin: 10px;
+}
+
+
+
+section#section2{
+    display: inline-block;
+    width:66.5%;
+
+    border:solid black 2px;
+    margin: 10px;
+
+    background:red;
+}
+
+
+section#section2>article{
+    border:solid black 1px;
+    margin: 10px;
+}
+
+section#section2>footer{
+    border:solid black 1px;
+    margin: 10px;
+    background:green;
+}
+
+
+
+
+
+body>footer{
+    clear:both;
+    background: pink;
+
+    border:solid black 3px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
